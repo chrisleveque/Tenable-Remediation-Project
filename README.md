@@ -183,6 +183,8 @@ Windows updates were re-enabled and applied until the system was fully up to dat
 
 ### Remediation Round 5: WinVerify Trust Signature Validation
 
+[Powershell: WinVerify Remediation Script](https://github.com/chrisleveque/Tenable-Remediation-Project/blob/main/WinVerify%20Trust%20Signature%20Validation%20Remediation%20Script)
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/91f17b53-9a35-4c65-a136-154f83939534" />
 
 [Scan 6 - WinVerify Trust Signature Validation.pdf](https://github.com/user-attachments/files/22067951/Scan.6.-.WinVerify.Trust.Signature.Validation.pdf)
