@@ -80,9 +80,11 @@ The team collaborates with the server team to initiate scheduled credential scan
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/937cccbd-36bb-4445-97b9-e915085cda81" style="border: 2px solid black;">
+<img width="1136" height="916" alt="image" src="https://github.com/user-attachments/assets/8676749f-42c0-4eec-8d78-67a8945a253d" />
 
-[Scan 1 - Initial Scan](https://drive.google.com/file/d/1RBPVj_azKJMwmRZ8QILlb4hxIjQU3wQ7/view?usp=drive_link)
+
+[Scan 1 - Initial Scan.pdf](https://github.com/user-attachments/files/22067814/Scan.1.-.Initial.Scan.pdf)
+
 
 
 
@@ -136,9 +138,11 @@ The Change Control Board (CAB) reviewed and approved the plan to remove insecure
 The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
 [Wireshark Removal Script](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-wireshark-uninstall.ps1)  
 
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/7b4f9ab2-d230-4458-ac0f-c0ff070ae79a">
+<img width="1135" height="917" alt="image" src="https://github.com/user-attachments/assets/5c1c9f0b-965d-44e3-8a4d-d595fb2358ff" />
 
-[Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1UiwPPTtuSZKk02hiMyXf31pXUIeC5EWt/view?usp=drive_link)
+[Scan 2 - 3rd Party Software Removal.pdf](https://github.com/user-attachments/files/22067836/Scan.2.-.3rd.Party.Software.Removal.pdf)
+
+
 
 
 #### Remediation Round 2: Insecure Protocols & Ciphers
@@ -147,9 +151,11 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 [PowerShell: Insecure Protocols Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-protocols.ps1)
 [PowerShell: Insecure Ciphers Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-cipher-suites.ps1)
 
-<img width="630" alt="image" src="https://github.com/user-attachments/assets/0e96120d-8ec9-4f76-8e42-79c752200010">
+<img width="1131" height="918" alt="image" src="https://github.com/user-attachments/assets/3a1cb65a-6b26-4495-bd6f-8c0ca568462b" />
 
-[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Qc6-ezQvwReCGUZNtnva0kCZo_-zW-Sm/view?usp=drive_link)
+
+[Scan 3 - Ciphersuites and Protocols.pdf](https://github.com/user-attachments/files/22067839/Scan.3.-.Ciphersuites.and.Protocols.pdf)
+
 
 
 #### Remediation Round 3: Guest Account Group Membership
@@ -157,18 +163,30 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
 [PowerShell: Guest Account Group Membership Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-guest-local-administrators.ps1)  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+<img width="1136" height="546" alt="image" src="https://github.com/user-attachments/assets/a1bdde02-9b23-44ed-9290-b9aeea0c94ee" />
 
-[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1jVgikjfrV1YjOcL3QRT_oUB0Y82w22V7/view?usp=drive_link)
+
+[Scan 4 - Guest Account Removal.pdf](https://github.com/user-attachments/files/22067863/Scan.4.-.Guest.Account.Removal.pdf)
+
 
 
 #### Remediation Round 4: Windows OS Updates
 
 Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+<img width="1136" height="546" alt="image" src="https://github.com/user-attachments/assets/2cab0c9c-bb6b-4d95-8d77-73e505f575a6" />
 
-[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1tmDjeHl5uiGitRwWy8kFRi33q-nGi1Zt/view?usp=drive_link)
+
+
+[Scan 5 - Post Windows Update.pdf](https://github.com/user-attachments/files/22067867/Scan.5.-.Post.Windows.Update.pdf)
+
+
+### Remediation Round 5: WinVerify Trust Signature Validation
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/91f17b53-9a35-4c65-a136-154f83939534" />
+
+[Scan 6 - WinVerify Trust Signature Validation.pdf](https://github.com/user-attachments/files/22067951/Scan.6.-.WinVerify.Trust.Signature.Validation.pdf)
+
 
 ---
 
